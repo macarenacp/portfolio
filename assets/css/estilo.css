@@ -1,0 +1,198 @@
+body {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+.navbar {
+	background-color: #ffffff;
+	height: 70px;
+	border: 0px none #fff;
+}
+
+.navbar-brand {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 700;
+	font-size: 2.3em;
+	line-height: 0.6em;
+}
+
+.navbar-nav {
+	padding-top: 20px;
+	font-family: 'Marvel', sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	color: #000;
+}
+
+.navbar-header {	
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #666;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ff32ff;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #ff32ff;
+}
+
+.navbar-collapse {
+	color: #666;
+	height: auto;
+	background-color: #fff;
+	border: 0px none #fff;
+	text-align: right;
+}
+	
+
+.sobre-mi {
+	width: 100%;
+	height: 100%;
+	padding-top: 8%;
+	padding-bottom: 19%;
+	font-family: 'Marvel', sans-serif;
+	font-weight: ;
+	font-size: 1.2em;
+}
+
+.redes a {
+	color: #000;
+
+}
+
+.redes a:hover {
+	color: #ff32ff;
+}
+
+@keyframes redessociales {
+	
+	100% {
+	transform: rotate(10deg);}
+	}
+
+.ani:hover {
+Animation-name: redessociales;
+Animation-duration: 0.1s;
+Animation-iteration-count: ; 
+Animation-direction: ; 
+animation-fill-mode: forwards;
+
+}
+
+.proyectos {
+	background: linear-gradient(#ffd7ff, #ffd7ff);
+	padding-top: 100px;
+	width: auto;
+	height: auto;
+	padding-bottom: 150px;
+}
+
+h1{
+	font-family: 'Marvel', sans-serif;
+	font-weight: 400;
+	font-size: 2.7em;
+}
+
+.titulo{
+	padding-bottom: 80px;
+}
+
+.tituloportfolio{
+	font-family: 'Marvel', sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 2.6em;
+	text-transform: uppercase;
+	padding-bottom: 0px;
+	letter-spacing: 0.1em; 
+}
+
+h3{
+	font-family: 'Marvel', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.portfolio p {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+.proyectos-web {
+	padding-bottom: 20px;
+}
+
+.proyectos-img {
+	padding: 0px 0px 10px 0px;
+	
+}
+
+.use{
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.proyecto {
+	padding-bottom: 100px;
+	font-size: 1.2em;
+}
+
+
+.titulocontacto{
+	font-family: 'Marvel', sans-serif;
+	color: #fff;
+	font-weight: 700;
+	font-size: 2.6em;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	letter-spacing: 0.1em; 
+	padding-top: 95px;
+	padding-bottom: 100px;
+}
+
+
+.contacto {
+	background-image: url(../img/hellokitty.jpg);
+	background-position: center center;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 800px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: relative;
+}
+
+.contacto p {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.layer {
+	background-color: rgba(255,167,255,0.89);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+}
+
