@@ -8,13 +8,15 @@ body {
 	background-color: #ffffff;
 	height: 70px;
 	border: 0px none #fff;
+	z-index: 100;
+
 }
 
 .navbar-brand {
 	font-family: 'Marvel', sans-serif;
 	font-weight: 700;
-	font-size: 2.3em;
-	line-height: 0.6em;
+	font-size: 2em;
+	line-height: 0.2em;
 }
 
 .navbar-nav {
@@ -47,12 +49,15 @@ body {
 
 .navbar-collapse {
 	color: #666;
-	height: auto;
-	background-color: #fff;
-	border: 0px none #fff;
-	text-align: right;
+	background-color: #ffd5ff;
+	border: 0px solid #666;
+	text-align: center;
+	padding-bottom: 10px;
 }
-	
+
+header {
+	z-index: -1;
+}
 
 .sobre-mi {
 	width: 100%;
@@ -196,3 +201,23 @@ footer {
 	padding-top: 20px;
 }
 
+@media (min-width: 768px) { 
+.navbar-collapse {
+	color: #666;
+	background-color: #fff;
+	border: 0px solid #666;
+	text-align: center;
+}
+
+	.navbar-brand {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 700;
+	font-size: 2.3em;
+	line-height: 0.5em;
+}
+
+
+
+
+
+}
