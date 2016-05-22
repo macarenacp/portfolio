@@ -1,15 +1,21 @@
 body {
-	font-family: 'Marvel', sans-serif;
+	padding-top: 60px;
+	font-family: 'Jaldi', sans-serif;
 	font-weight: 400;
 	font-size: 1.5em;
+	position: relative;
+}
+
+::selection {
+    color: #ffaaff; 
+    background-color: #666;
 }
 
 .navbar {
 	background-color: #ffffff;
-	height: 70px;
-	border: 0px none #fff;
+	height: 60px;
+	border: 0px;
 	z-index: 100;
-
 }
 
 .navbar-brand {
@@ -17,26 +23,7 @@ body {
 	font-weight: 700;
 	font-size: 2em;
 	line-height: 0.2em;
-}
-
-.navbar-nav {
-	padding-top: 20px;
-	font-family: 'Marvel', sans-serif;
-	font-weight: 700;
-	font-size: 1.2em;
-	color: #000;
-}
-
-.navbar-header {	
-	padding-top: 5px;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #666;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    color: #ff32ff;
+	padding-top: 16px;
 }
 
 .navbar-default .navbar-brand {
@@ -44,13 +31,38 @@ body {
 }
 
 .navbar-default .navbar-brand:hover{
-    color: #ff32ff;
+    color: #ff00ff;
+}
+
+.navbar .navbar-nav .active a{
+  background-color: #efefef;
+  border-radius: 5px;
+}
+
+.navbar-nav {
+	padding-top: 10px;
+	font-family: 'Jaldi', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: #000;
+}
+
+/* parte del medio de la barra */ 
+.navbar-header {	
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #666;
+}
+.navbar-default .navbar-nav li a:hover {
+	color: #ff00ff;
 }
 
 .navbar-collapse {
 	color: #666;
-	background-color: #ffd5ff;
-	border: 0px solid #666;
+	background-color: #efefef;
+	border: 0px;
 	text-align: center;
 	padding-bottom: 10px;
 }
@@ -59,19 +71,30 @@ header {
 	z-index: -1;
 }
 
-.sobre-mi {
+.cabecera {
+	background-image: url(../img/hellokitty.jpg);
+	background-position: center center;
+	background-size: cover; 
+	background-repeat: no-repeat;
 	width: 100%;
-	height: 100%;
-	padding-top: 8%;
-	padding-bottom: 19%;
+	height: 500px;
 	font-family: 'Marvel', sans-serif;
 	font-weight: ;
 	font-size: 1.2em;
+	position: relative;
+}
+
+.layer {
+	background-color: rgba(255,220,255,0.85);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .redes a {
 	color: #000;
-
 }
 
 .redes a:hover {
@@ -93,26 +116,37 @@ animation-fill-mode: forwards;
 
 }
 
-.proyectos {
-	background: linear-gradient(#ffd7ff, #ffd7ff);
-	padding-top: 100px;
-	width: auto;
+.portfolio {
+	background-color: #ffffff;
+	padding: 100px 20px 100px 20px;
+	width: 100%;
 	height: auto;
-	padding-bottom: 150px;
+	text-align: center;
+}
+
+.trabajo {
+	padding-bottom: 30px;
 }
 
 h1{
 	font-family: 'Marvel', sans-serif;
-	font-weight: 400;
-	font-size: 2.7em;
+	font-weight: 700;
+	font-size: 3.7em;
+	padding-top: 20%;
 }
 
 .titulo{
 	padding-bottom: 80px;
 }
 
-.tituloportfolio{
-	font-family: 'Marvel', sans-serif;
+.fondo {
+	background-color: #eee;
+	padding: 10px 0px 10px 0px;
+	border-radius: 10px;
+}
+
+h2{
+	font-family: 'Jaldi', sans-serif;
 	color: #000;
 	font-weight: 700;
 	font-size: 2.6em;
@@ -125,20 +159,18 @@ h3{
 	font-family: 'Marvel', sans-serif;
 	font-weight: 700;
 	font-size: 1.5em;
+	text-align: center;
 }
 
 .portfolio p {
 	font-family: 'Marvel', sans-serif;
 	font-weight: 400;
 	font-size: 1.1em;
-}
-
-.proyectos-web {
-	padding-bottom: 20px;
+	text-align: center;
 }
 
 .proyectos-img {
-	padding: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
 	
 }
 
@@ -149,50 +181,25 @@ h3{
 	font-size: 1.1em;
 }
 
-.proyecto {
-	padding-bottom: 100px;
-	font-size: 1.2em;
-}
-
-
-.titulocontacto{
-	font-family: 'Marvel', sans-serif;
-	color: #fff;
-	font-weight: 700;
-	font-size: 2.6em;
-	text-transform: uppercase;
-	padding-bottom: 5px;
-	letter-spacing: 0.1em; 
-	padding-top: 95px;
-	padding-bottom: 100px;
-}
-
-
 .contacto {
-	background-image: url(../img/hellokitty.jpg);
-	background-position: center center;
-	background-size: cover; 
-	background-repeat: no-repeat;
+	background-color: #ffccff;
 	width: 100%;
-	height: 800px;
+	height: 750px;
 	padding-top: 100px;
-	padding-bottom: 100px;
-	position: relative;
+	padding-bottom: 80px;
+	text-align: center;
 }
 
 .contacto p {
-	font-family: 'Marvel', sans-serif;
-	font-weight: 400;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
-.layer {
-	background-color: rgba(255,167,255,0.89);
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.btn {
+	color: #000;
+	background-color: #ffefff;
+	font-size: 1.2em;
+	font-weight: 700;
+	padding: 15px 40px 15px 40px;
 }
 
 footer {
@@ -202,24 +209,43 @@ footer {
 }
 
 @media (min-width: 768px) { 
+
 .navbar-collapse {
 	color: #666;
 	background-color: #fff;
-	border: 0px solid #666;
+	border: 0px;
 	text-align: center;
 }
 
-	.navbar-brand {
+.navbar {
+	background-color: #fff;
+	height: 70px;
+	width: 100%;
+	border: 0px;
+	z-index: 100;
+}
+
+.navbar-brand {
 	font-family: 'Marvel', sans-serif;
 	font-weight: 700;
 	font-size: 2.3em;
-	line-height: 0.5em;
+	line-height: 0.3em;
+	padding-top: 15px;
 }
 
-
-
-
-
+.portfolio {
+	background-color: #ffffff;
+	padding: 100px 60px 100px 60px;
+	width: auto;
+	height: auto;
 }
 
-/* comentario */
+.cabecera {
+	height: 580px;
+}
+
+h1{
+	padding-top: 22%;
+}
+
+}
