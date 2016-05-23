@@ -1,0 +1,359 @@
+body {
+	padding-top: 60px;
+	font-family: 'Marvel', sans-serif;
+	font-weight: normal;
+	font-size: 1.5em;
+	position: relative;
+}
+
+::selection {
+    color: #ffaaff; 
+    background-color: #666;
+}
+
+.navbar {
+	background-color: #ffffff;
+	height: 60px;
+	border: 0px;
+	z-index: 100;
+}
+
+.navbar-brand {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	line-height: 0.2em;
+	padding-top: 16px;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #ff00ff;
+}
+
+.navbar .navbar-nav .active a{
+  background-color: #efefef;
+  border-radius: 5px;
+}
+
+.navbar-nav {
+	padding-top: 10px;
+	font-family: 'Marvel', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: #000;
+}
+
+/* parte del medio de la barra */ 
+.navbar-header {	
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #666;
+}
+.navbar-default .navbar-nav li a:hover {
+	color: #ff00ff;
+}
+
+.navbar-collapse {
+	color: #666;
+	background-color: #fff;
+	border: 0px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+header {
+	z-index: -1;
+}
+
+.cabecera {
+	background-image: url(../img/hellokitty.jpg);
+	background-position: center center;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	font-family: 'Marvel', sans-serif;
+	font-weight: ;
+	font-size: 1.2em;
+	position: relative;
+}
+
+.layer {
+	background-color: rgba(255,220,255,0.85);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.redes a {
+	color: #000;
+}
+
+.redes a:hover {
+	color: #ff32ff;
+}
+
+@keyframes redessociales {
+	
+	100% {
+	transform: rotate(10deg);}
+	}
+
+.ani:hover {
+Animation-name: redessociales;
+Animation-duration: 0.1s;
+Animation-iteration-count: ; 
+Animation-direction: ; 
+animation-fill-mode: forwards;
+
+}
+
+.sobre-mi {
+	background-color: #c47ec4;
+	background-image: url(../img/back.png);
+	background-repeat: repeat;
+	padding: 100px 20px 100px 20px;
+	width: 100%;
+	height: 1100px;
+	text-align: center;
+}
+
+.sobre-mi img {
+	width: 210px;
+	height: auto;
+	padding-bottom: 0px;
+}
+
+.sobre-mi p {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 400; 
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.portfolio {
+	background-color: #eee;
+	padding: 100px 20px 100px 20px;
+	width: 100%;
+	height: auto;
+
+}
+
+.trabajo {
+	padding-bottom: 30px;
+	margin: 0px auto 0px auto;
+	display: inline-block;
+
+}
+
+.trabajos {
+	max-width: 900px;
+	margin: 0px auto 0px auto;
+	display: inline-block;
+}
+
+h1{
+	font-family: 'Marvel', sans-serif;
+	font-weight: 700;
+	font-size: 3.7em;
+	padding-top: 18%;
+}
+
+.fondo {
+	background-color: #fff;
+	padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+
+}
+
+h2{
+	font-family: 'Marvel', sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 2.9em;
+	text-transform: uppercase;
+	padding-bottom: 70px;
+	letter-spacing: 0.1em; 
+	padding-top: 20px;
+}
+
+h3{
+	font-family: 'Marvel', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.portfolio p {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 400;
+
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.proyectos-img {
+	padding: 0px 0px 0px 0px;
+	
+}
+
+.use{
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1em;
+	padding-top: 5px;
+}
+
+.contacto {
+	background-color: #bbb;
+	background-image: url(../img/back.png);
+	background-repeat: repeat;
+	width: 100%;
+	height: 770px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.contacto p {
+	font-size: 1.1em;
+}
+
+.btn {
+	color: #000;
+	background-color: #a0a0a0;
+	font-size: 1.2em;
+	font-weight: 700;
+	padding: 15px 40px 15px 40px;
+}
+
+footer {
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+@media (min-width: 768px) { 
+
+.navbar-collapse {
+	background-color: #fff;
+	border: 0px;
+	text-align: center;
+}
+
+.navbar {
+	height: 70px;
+	width: 100%;
+	border: 0px;
+	z-index: 100;
+}
+
+.navbar-brand {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 700;
+	font-size: 2.3em;
+	line-height: 0.3em;
+	padding-top: 15px;
+}
+
+.portfolio {
+	padding: 100px 60px 100px 60px;
+	width: auto;
+	height: auto;
+}
+
+.cabecera {
+	height: 620px;
+}
+
+h1{
+	padding-top: 24%;
+}
+
+h2 {
+	padding-top: 30px;
+}
+
+.sobre-mi {
+	height: 1000px;
+}
+
+.trabajo {
+	min-height: 330px;
+	max-height: 430px;
+
+	padding-bottom: 30px;
+}
+
+}
+
+
+@media (min-width: 992px) { 
+
+.cabecera {
+	height: 820px;
+}
+
+h1{
+	padding-top: 40%;
+}
+
+.portfolio {
+	background-color: #eee;
+	padding: 100px 50px 100px 50px;
+	width: 100%;
+	height: auto;
+
+}
+
+.trabajo {
+	padding-bottom: 30px;
+}
+
+}
+
+
+
+@media (min-width: 1200px) { 
+
+.cabecera {
+	height: 940px;
+}
+
+h1{
+	padding-top: 32%;
+}
+
+.portfolio {
+	height: 790px;
+	padding: 100px 150px 100px 150px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.trabajo {
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	max-width: 450px;
+	max-height: 400px;
+	min-height: 280px;
+	margin: 0px auto;
+
+}
+
+.trabajos {
+	max-width: 1500px;
+	margin: 0px auto 0px auto;
+	display: inline-block;
+	text-align: center;
+}
+}
+
