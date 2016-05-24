@@ -193,14 +193,21 @@ h3{
 
 .portfolio p {
 	font-family: 'Marvel', sans-serif;
-	font-weight: 400;
+	font-weight: 400; 
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
 
-	font-size: 1.1em;
+.descripcion {
+	font-family: 'Marvel', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
 	text-align: center;
 }
 
 .proyectos-img {
 	padding: 0px 0px 0px 0px;
+	border: 1px solid #eee;
 	
 }
 
@@ -224,7 +231,8 @@ h3{
 }
 
 .contacto p {
-	font-size: 1.1em;
+	font-size: 1.2em;
+	line-height: 1.5em;
 }
 
 .btn {
@@ -236,26 +244,13 @@ h3{
 }
 
 footer {
+	font-size: 1.1em;
+	font-weight: 700;
 	height: 60px;
 	text-align: center;
 	padding-top: 20px;
 }
 
-@media (min-width: 500px) { 
-
-.cabecera {
-
-	height: 700px;
-
-}
-
-h1{
-
-	padding-top: 25%;
-}
-
-
-}
 
 @media (min-width: 768px) { 
 
