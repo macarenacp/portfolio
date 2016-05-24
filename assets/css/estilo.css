@@ -140,7 +140,7 @@ animation-fill-mode: forwards;
 }
 
 .portfolio {
-	background-color: #eee;
+	background-color: #ddd;
 	padding: 100px 20px 100px 20px;
 	width: 100%;
 	height: auto;
@@ -169,8 +169,8 @@ h1{
 
 .fondo {
 	background-color: #fff;
-	padding: 10px 10px 10px 10px;
-	border-radius: 10px;
+	padding: 10px 0px 10px 0px;
+	border-radius: 0px;
 
 }
 
@@ -207,7 +207,6 @@ h3{
 
 .proyectos-img {
 	padding: 0px 0px 0px 0px;
-	border: 1px solid #eee;
 	
 }
 
@@ -318,7 +317,6 @@ h1{
 }
 
 .portfolio {
-	background-color: #eee;
 	padding: 100px 50px 100px 50px;
 	width: 100%;
 	height: auto;
