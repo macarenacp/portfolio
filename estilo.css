@@ -77,7 +77,7 @@ header {
 	background-size: cover; 
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 600px;
+	height: 500px;
 	font-family: 'Marvel', sans-serif;
 	font-weight: ;
 	font-size: 1.2em;
@@ -164,7 +164,7 @@ h1{
 	font-family: 'Marvel', sans-serif;
 	font-weight: 700;
 	font-size: 3.7em;
-	padding-top: 23%;
+	padding-top: 18%;
 }
 
 .fondo {
@@ -296,14 +296,14 @@ h2 {
 }
 
 
-@media (min-width: 1200px) { 
+@media (min-width: 992px) { 
 
 .cabecera {
 	height: 820px;
 }
 
 h1{
-	padding-top: 33%;
+	padding-top: 40%;
 }
 
 .portfolio {
@@ -316,25 +316,13 @@ h1{
 
 .trabajo {
 	padding-bottom: 30px;
-	max-width: 450px;
-	max-height: 400px;
-	min-height: 280px;
-	margin: 0px auto;
-}
-
-.trabajos {
-	max-width: 1100px;
-	margin: 0px auto 0px auto;
-	display: inline-block;
-	text-align: center;
-
 }
 
 }
 
 
 
-@media (min-width: 1500px) { 
+@media (min-width: 1200px) { 
 
 .cabecera {
 	height: 940px;
